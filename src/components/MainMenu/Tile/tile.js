@@ -1,0 +1,29 @@
+import Image from 'next/image';
+import Link from 'next/link';
+
+export default function Tile({ height, width, title, image, link }) {
+    let tileBackground;
+    if (image.endsWith('.svg')) {
+        tileBackground =
+            <Image
+                src={ image }
+                alt={title + " icon"}
+                width={ 90 }
+                height={ 40 }
+                priority
+            />
+    }
+
+    return (
+        <Link href={ link }>
+            <div className={ "group relative shadow-2xl bg-gray-500 " + height + " " + width + " flex flex-col justify-center items-center hover:outline hover:outline-blue-700 transition-all duration-75" }>
+                <div className="flex-1 flex">
+                    { tileBackground }
+                </div>
+                <p className="hidden absolute bottom-0 group-hover:block w-full p-4 font-semibold text-lg bg-gradient-to-t from-gray-700">
+                    { title }
+                </p>
+            </div>
+        </Link>
+    );
+}
