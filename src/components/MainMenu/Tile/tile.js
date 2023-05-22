@@ -20,7 +20,7 @@ export default function Tile({ height, width, title, image, link }) {
                 <div className="flex-1 flex">
                     { tileBackground }
                 </div>
-                <p className="hidden absolute bottom-0 group-hover:block w-full p-4 font-semibold text-lg bg-gradient-to-t from-gray-700">
+                <p className="hidden absolute bottom-0 group-hover:block w-full p-4 font-semibold text-lg bg-gradient-to-t from-gray-700 rounded-b-lg">
                     { title }
                 </p>
             </div>
