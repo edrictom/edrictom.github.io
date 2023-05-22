@@ -4,7 +4,7 @@ const projectsTileData = {
     title: 'My projects & websites',
     image: '/Icons/window.svg',
     link: '/projects',
-    id: 0
+    key: 1
 };
 
 export default function ProjectsTile() {
@@ -15,6 +15,7 @@ export default function ProjectsTile() {
             title={ projectsTileData.title }
             image={ projectsTileData.image }
             link={ projectsTileData.link }
+            key={ projectsTileData.key }
         />
     );
 }

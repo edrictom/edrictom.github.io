@@ -16,7 +16,7 @@ export default function Tile({ height, width, title, image, link }) {
 
     return (
         <Link href={ link }>
-            <div className={ "group relative shadow-2xl bg-gray-500 " + height + " " + width + " flex flex-col justify-center items-center hover:outline hover:outline-blue-700 transition-all duration-75" }>
+            <div className={ "group relative shadow-2xl bg-gray-500 " + height + " " + width + " flex flex-col justify-center items-center rounded-lg hover:ring-4 hover:ring-blue-700 transition-colors duration-75" }>
                 <div className="flex-1 flex">
                     { tileBackground }
                 </div>

@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Header() {
     return (
-        <header className="flex flex-row w-full">
+        <header className="flex flex-row w-full max-w-full">
             <Profile />
             <div className="flex flex-row p-1">
                 <Image
