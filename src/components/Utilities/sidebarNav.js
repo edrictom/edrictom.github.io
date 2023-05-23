@@ -16,7 +16,7 @@ export default function SidebarNav({ navObject, handleNavClick }) {
             <section className="mt-36 flex flex-col">
                 { navTitles.map(section => {
                     return (
-                        <button key={ navTitles.indexOf(navObject) }
+                        <button key={ section }
                             onClick={ handleNavClick }
                             className="text-center text-xl my-3 py-6 font-bold rounded-lg hover:ring hover:ring-blue-500 hover:shadow-2xl focus:bg-sky-600 active:bg-sky-800 transition-colors duration-75">
                             { section }

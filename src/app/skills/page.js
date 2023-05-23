@@ -3,14 +3,16 @@
 
 // Import components
 import SidebarNav from '@/components/Utilities/sidebarNav';
-import Languages from '@/components/Sections/Skills/Languages/languages';
+import Languages from '@/components/Sections/Skills/languages';
+import DevTools from '@/components/Sections/Skills/devtools';
+import Apps from '@/components/Sections/Skills/apps';
 import { useState } from 'react';
 
 // Object containing navigation titles and their appropriate React components for rendering
 const nav = {
     "Languages": <Languages />,
-    "Frameworks & Tools": <div></div>,
-    "Apps": <div></div>,
+    "Dev Tools": <DevTools />,
+    "Apps": <Apps />
 };
 
 export default function Skills() {

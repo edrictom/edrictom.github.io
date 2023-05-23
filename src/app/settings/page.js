@@ -3,22 +3,19 @@
 
 // Import components
 import SidebarNav from '@/components/Utilities/sidebarNav';
-import MainProfile from '@/components/Sections/AboutMe/mainProfile';
-import Hobbies from '@/components/Sections/AboutMe/hobbies';
-import Contact from '@/components/Sections/AboutMe/contact';
 import { useState } from 'react';
 
 // Object containing navigation titles and their appropriate React components for rendering
 const nav = {
-    "Profile": <MainProfile />,
-    "Hobbies": <Hobbies />,
-    "Contact": <Contact />
+    "Background": <div>Change Background Image</div>,
+    "Color Theme": <div>Change Theme</div>,
+    "About": <div>About</div>
 };
 
-export default function AboutMe() {
-    const [currentSection, setSection] = useState("Profile");
+export default function Settings() {
+    const [currentSection, setSection] = useState("Background");
 
-    // Render different sections of the 'About Me' page based on which nav button is clicked
+    // Render different sections of the 'Settings' page based on which nav button is clicked,
     // Pass click event handler into <SidebarNav /> child component
     const handleNavClick = event => {
         setSection(event.target.innerHTML);
@@ -27,9 +24,9 @@ export default function AboutMe() {
     // Render component
     return (
         <main className="flex min-h-screen flex-row">
-            <SidebarNav navObject={ nav } handleNavClick={ handleNavClick } />
+            <SidebarNav navObject={nav} handleNavClick={handleNavClick} />
             <section className="min-w-screen flex-grow">
-                { nav[currentSection] }
+                {nav[currentSection]}
             </section>
         </main>
     );

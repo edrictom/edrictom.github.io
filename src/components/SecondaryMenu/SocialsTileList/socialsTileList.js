@@ -7,9 +7,9 @@ const socialsData = [
         image: <Image
             src={ '/Icons/github.svg' }
             alt={ "GitHub icon" }
-            width={ 60 }
-            height={ 40 }
-            priority
+            width={ 0 }
+            height={ 0 }
+            className="w-16 h-16 self-center"
         />,
         link: 'https://www.github.com/edrictom',
         key: 2
@@ -19,9 +19,9 @@ const socialsData = [
         image: <Image
             src={ '/Icons/linkedin.svg' }
             alt={ "LinkedIn icon" }
-            width={ 60 }
-            height={ 40 }
-            priority
+            width={ 0 }
+            height={ 0 }
+            className="w-16 h-16 self-center"
         />,
         link: 'https://www.linkedin.com/in/edric-tom-98ba34178',
         key: 3
@@ -31,9 +31,9 @@ const socialsData = [
         image: <Image
             src={ '/Icons/instagram.svg' }
             alt={ " Instagram icon" }
-            width={ 60 }
-            height={ 40 }
-            priority
+            width={ 0 }
+            height={ 0 }
+            className="w-16 h-16 self-center"
         />,
         link: 'https://www.instagram.com/el_edric',
         key: 4

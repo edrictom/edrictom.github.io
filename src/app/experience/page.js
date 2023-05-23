@@ -4,11 +4,12 @@
 // Import components
 import SidebarNav from '@/components/Utilities/sidebarNav';
 import Educational from '@/components/Sections/Experience/educational';
+import Professional from '@/components/Sections/Experience/professional';
 import { useState } from 'react';
 
 // Object containing navigation titles and their appropriate React components for rendering
 const nav = {
-    "Professional": <div></div>,
+    "Professional": <Professional />,
     "Educational": <Educational />
 };
 
