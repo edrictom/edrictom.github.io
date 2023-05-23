@@ -8,9 +8,9 @@ const tileData = [
         key: 2
     },
     { 
-        title: 'Work Experience', 
+        title: 'Experience', 
         image: '/Icons/briefcase.svg', 
-        link: '/workexperience',
+        link: '/experience',
         key: 3 
     },
     { 
