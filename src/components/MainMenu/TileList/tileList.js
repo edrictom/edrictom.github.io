@@ -1,27 +1,28 @@
 import Tile from '../Tile/tile';
+import { CodeBracketIcon, BriefcaseIcon, TrophyIcon, Cog8ToothIcon } from '@heroicons/react/24/outline';
 
 const tileData = [
     {
         title: 'Skills',
-        image: '/Icons/code-bracket.svg',
+        image: <CodeBracketIcon className="h-24 w-24 text-black self-center" />,
         link: '/skills',
         key: 2
     },
     { 
         title: 'Experience', 
-        image: '/Icons/briefcase.svg', 
+        image: <BriefcaseIcon className="h-24 w-24 text-black self-center" />, 
         link: '/experience',
         key: 3 
     },
     { 
         title: 'Achievements', 
-        image: '/Icons/trophy.svg', 
+        image: <TrophyIcon className="h-24 w-24 text-black self-center" />, 
         link: '/achievements',
         key: 4 
     },
     { 
         title: 'Settings', 
-        image: '/Icons/gear.svg',
+        image: <Cog8ToothIcon className="h-24 w-24 text-black self-center" />,
         link: '/settings',
         key: 5 
     }

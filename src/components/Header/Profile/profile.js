@@ -1,27 +1,15 @@
 import Image from 'next/image';
+import { UserCircleIcon } from '@heroicons/react/24/solid';
+import { FireIcon } from '@heroicons/react/20/solid'
 
 export default function Profile() {
     return (
         <div className="flex flex-row flex-1">
-            <Image
-                src="/Icons/defaultuser.svg"
-                alt="Default user profile picture"
-                className="dark:invert"
-                width={ 50 }
-                height={ 24 }
-                priority
-            />
+            <UserCircleIcon className="h-12 w-12 text-white mt-3" />
             <div className="flex flex-col p-4">
                 <p className="whitespace-nowrap">Edric Tom</p>
                 <div className="flex flex-row">
-                    <Image
-                        src="/Icons/fire.svg"
-                        alt="Fire icon"
-                        className="dark:invert px-1"
-                        width={ 25 }
-                        height={ 35 }
-                        priority
-                    />
+                    <FireIcon className="h-6 w-6 text-white mr-1" />
                     <span>54250</span>
                 </div>
             </div>

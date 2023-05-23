@@ -1,8 +1,9 @@
 import Tile from '../Tile/tile';
+import { UserCircleIcon } from '@heroicons/react/24/solid';
 
 const mainTileData = {
     title: 'About Me',
-    image: '/Icons/defaultuser.svg',
+    image: <UserCircleIcon className="h-24 w-24 text-black self-center" />,
     link: '/aboutme',
     key: 1
 };

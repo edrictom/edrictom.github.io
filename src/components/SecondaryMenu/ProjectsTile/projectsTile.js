@@ -1,8 +1,9 @@
 import SocialsTile from '../SocialsTile/socialsTile';
+import { WindowIcon } from '@heroicons/react/24/outline';
 
 const projectsTileData = {
     title: 'My projects & websites',
-    image: '/Icons/window.svg',
+    image: <WindowIcon className="h-20 w-20 text-black self-center" />,
     link: '/projects',
     key: 1
 };
