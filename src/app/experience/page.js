@@ -15,6 +15,7 @@ const nav = {
 
 export default function Experience() {
     const [currentSection, setSection] = useState("Professional");
+    const navName = "experienceNav";
 
     // Render different sections of the 'Experience' page based on which nav button is clicked,
     // Pass click event handler into <SidebarNav /> child component
@@ -25,7 +26,7 @@ export default function Experience() {
     // Render component
     return (
         <main className="flex min-h-screen flex-row">
-            <SidebarNav navObject={nav} handleNavClick={handleNavClick} />
+            <SidebarNav navName={experienceNav} navObject={nav} handleNavClick={handleNavClick} />
             <section className="min-w-screen flex-grow">
                 {nav[currentSection]}
             </section>

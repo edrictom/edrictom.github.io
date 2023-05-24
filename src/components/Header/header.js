@@ -7,7 +7,7 @@ export default function Header() {
         <header className="flex flex-row w-full max-w-full">
             <Profile />
             <div className="flex flex-row p-1">
-                <Battery50Icon className="h-12 w-12 mt-2 text-white" />
+                <Battery50Icon className="invisible lg:visible h-12 w-12 mt-2 text-white" />
                 <Time />
             </div>
         </header>

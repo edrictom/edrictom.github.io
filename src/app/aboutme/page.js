@@ -17,17 +17,19 @@ const nav = {
 
 export default function AboutMe() {
     const [currentSection, setSection] = useState("Profile");
+    const navName = "aboutMeNav";
 
     // Render different sections of the 'About Me' page based on which nav button is clicked
     // Pass click event handler into <SidebarNav /> child component
     const handleNavClick = event => {
         setSection(event.target.innerHTML);
+        event.target.ariaSelected = "true";
     }
 
     // Render component
     return (
         <main className="flex min-h-screen flex-row">
-            <SidebarNav navObject={ nav } handleNavClick={ handleNavClick } />
+            <SidebarNav navName={navName} navObject={ nav } handleNavClick={ handleNavClick } />
             <section className="min-w-screen flex-grow">
                 { nav[currentSection] }
             </section>

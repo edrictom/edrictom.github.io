@@ -2,7 +2,7 @@ import Profile from '@/components/Header/Profile/profile';
 import { XMarkIcon } from '@heroicons/react/24/solid';
 import Link from 'next/link';
 
-export default function SidebarNav({ navObject, handleNavClick }) {
+export default function SidebarNav({navName, navObject, handleNavClick }) {
     const navTitles = Object.keys(navObject);
 
     return (
@@ -13,20 +13,20 @@ export default function SidebarNav({ navObject, handleNavClick }) {
                 </Link>
                 <Profile />
             </div>
-            <tablist className="mt-36 flex flex-col">
+            <div id={ navName } className="mt-36 flex flex-col">
                 { navTitles.map(section => {
                     return (
                         <button 
                             key={ section }
-                            role="tab"
                             aria-selected={ section === navTitles[0] ? "true" : "false" }
                             onClick={ handleNavClick }
-                            className="text-center text-xl my-3 py-6 font-bold rounded-lg hover:ring hover:ring-blue-500 hover:shadow-2xl focus:bg-sky-600 active:bg-sky-800 transition-colors duration-75">
+                            className="aria-selected:bg-sky-600 text-center text-xl my-3 py-6 font-bold rounded-lg hover:ring hover:ring-blue-500 hover:shadow-2xl focus:bg-sky-600 active:bg-sky-800 transition-colors duration-75"
+                        >
                             { section }
                         </button>
                     );
                 }) }
-            </tablist>
+            </div>
         </nav>
     );
 }
