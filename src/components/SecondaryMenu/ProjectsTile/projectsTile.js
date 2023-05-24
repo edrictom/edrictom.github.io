@@ -1,10 +1,11 @@
 import SocialsTile from '../SocialsTile/socialsTile';
+import { WindowIcon } from '@heroicons/react/24/outline';
 
 const projectsTileData = {
     title: 'My projects & websites',
-    image: '/Icons/window.svg',
+    image: <WindowIcon className="h-20 w-20 text-black self-center" />,
     link: '/projects',
-    id: 0
+    key: 1
 };
 
 export default function ProjectsTile() {
@@ -15,6 +16,7 @@ export default function ProjectsTile() {
             title={ projectsTileData.title }
             image={ projectsTileData.image }
             link={ projectsTileData.link }
+            key={ projectsTileData.key }
         />
     );
 }

@@ -3,7 +3,7 @@ import ProjectsTile from './ProjectsTile/projectsTile';
 
 export default function SecondaryMenu() {
     return (
-        <div className="flex flex-row mr-9">
+        <div className="flex lg:flex-row sm:flex-col mr-9 max-w-full">
             <div className="mr-10">
                 <ProjectsTile />
             </div>

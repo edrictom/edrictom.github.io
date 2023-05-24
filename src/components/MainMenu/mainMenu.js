@@ -3,7 +3,7 @@ import TileList from './TileList/tileList';
 
 export default function MainMenu() {
     return (
-        <div className="flex flex-row m-8">
+        <div className="flex lg:flex-row sm:flex-col m-8 max-w-full">
             <div className="m-6">
                 <MainTile />
             </div>

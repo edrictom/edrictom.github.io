@@ -1,29 +1,48 @@
 import SocialsTile from '../SocialsTile/socialsTile';
+import Image from 'next/image';
 
 const socialsData = [
     {
         title: 'GitHub',
-        image: '/Icons/github.svg',
+        image: <Image
+            src={ '/Icons/github.svg' }
+            alt={ "GitHub icon" }
+            width={ 0 }
+            height={ 0 }
+            className="w-16 h-16 self-center"
+        />,
         link: 'https://www.github.com/edrictom',
-        id: 1
+        key: 2
     },
     {
         title: 'LinkedIn',
-        image: '/Icons/linkedin.svg',
+        image: <Image
+            src={ '/Icons/linkedin.svg' }
+            alt={ "LinkedIn icon" }
+            width={ 0 }
+            height={ 0 }
+            className="w-16 h-16 self-center"
+        />,
         link: 'https://www.linkedin.com/in/edric-tom-98ba34178',
-        id: 2
+        key: 3
     },
     {
-        title: 'Instagram',
-        image: 'Icons/instagram.svg',
-        link: 'https://www.instagram.com/el_edric',
-        id: 3
+        title: 'YouTube',
+        image: <Image
+            src={ '/Icons/youtube.svg' }
+            alt={ " Youtube icon" }
+            width={ 0 }
+            height={ 0 }
+            className="w-16 h-16 self-center"
+        />,
+        link: 'https://youtube.com/@EdricTom',
+        key: 4
     }
 ];
 
 export default function SocialTileList() {
     return (
-        <ul className="flex flex-row space-x-3 justify-evenly">
+        <ul className="flex lg:flex-row sm:flex-col md:flex-wrap space-x-3 justify-evenly">
             { socialsData.map(tile => {
                 return <SocialsTile
                     height="h-48"
@@ -31,6 +50,7 @@ export default function SocialTileList() {
                     title={ tile.title }
                     image={ tile.image }
                     link={ tile.link }
+                    key={ tile.key }
                 />
             }) }
         </ul>
