@@ -27,15 +27,15 @@ const socialsData = [
         key: 3
     },
     {
-        title: 'Instagram',
+        title: 'YouTube',
         image: <Image
-            src={ '/Icons/instagram.svg' }
-            alt={ " Instagram icon" }
+            src={ '/Icons/youtube.svg' }
+            alt={ " Youtube icon" }
             width={ 0 }
             height={ 0 }
             className="w-16 h-16 self-center"
         />,
-        link: 'https://www.instagram.com/el_edric',
+        link: 'https://youtube.com/@EdricTom',
         key: 4
     }
 ];
