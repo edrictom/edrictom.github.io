@@ -7,7 +7,7 @@ I am building an awesome portfolio to showcase my professional work in a way tha
 ## External Links
 [GitHub](https://www.github.com/edrictom)  
 [LinkedIn](https://www.linkedin.com/in/edric-tom-98ba34178)  
-[Instagram](https://www.instagram.com/el_edric)    
+[YouTube](https://youtube.com/@EdricTom)    
 
 ---
 
