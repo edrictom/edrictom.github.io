@@ -24,6 +24,13 @@ export default function AboutMe() {
     const handleNavClick = event => {
         setSection(event.target.innerHTML);
         event.target.ariaSelected = "true";
+        const buttons = document.getElementById(navName).children;
+        for (let i = 0; i < buttons.length; ++i) {
+            let button = buttons[i];
+            if (button !== event.target) {
+                button.ariaSelected = "false";
+            }
+        }
     }
 
     // Render component
