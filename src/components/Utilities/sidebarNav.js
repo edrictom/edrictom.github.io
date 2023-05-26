@@ -20,7 +20,7 @@ export default function SidebarNav({navName, navObject, handleNavClick }) {
                             key={ section }
                             aria-selected={ section === navTitles[0] ? "true" : "false" }
                             onClick={ handleNavClick }
-                            className="aria-selected:bg-sky-600 text-center text-xl my-3 py-6 font-bold rounded-lg hover:ring hover:ring-blue-500 hover:shadow-2xl focus:bg-sky-600 active:bg-sky-800 transition-colors duration-75"
+                            className="button-primary aria-selected:bg-sky-600"
                         >
                             { section }
                         </button>

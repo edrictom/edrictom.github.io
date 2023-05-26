@@ -10,7 +10,7 @@ export default function Professional() {
                     </span>
                     <h3 className="flex items-center mb-1 text-lg font-semibold text-white">
                         Freelance Web Developer
-                        <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ml-3">
+                        <span className="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-blue-900 text-blue-300 ml-3">
                             Latest
                         </span>
                     </h3>
@@ -26,7 +26,7 @@ export default function Professional() {
                     </span>
                     <h3 className="flex items-center mb-1 text-lg font-semibold text-white">
                         Business Technical Support Analyst II - UC Davis College of Biological Sciences Dean's Office
-                        <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ml-3">
+                        <span className="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-blue-900 text-blue-300 ml-3">
                             Latest
                         </span>
                     </h3>

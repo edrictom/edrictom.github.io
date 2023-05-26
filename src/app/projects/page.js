@@ -3,6 +3,7 @@
 
 // Import components
 import SidebarNav from '@/components/Utilities/sidebarNav';
+import { BookOpenIcon } from '@heroicons/react/24/solid';
 import { useState } from 'react';
 
 // Object containing navigation titles and their appropriate React components for rendering

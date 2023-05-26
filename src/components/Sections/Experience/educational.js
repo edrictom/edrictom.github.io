@@ -9,7 +9,7 @@ export default function Educational() {
                         <GlobeAltIcon className="w-4 h-4 text-blue-100" />
                     </span>
                     <h3 className="flex items-center mb-1 text-lg font-semibold text-white">Front-End Engineer Certification - Codecademy 
-                        <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ml-3">
+                        <span className="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-blue-900 text-blue-300 ml-3">
                             Latest
                         </span>
                     </h3>
@@ -33,9 +33,9 @@ export default function Educational() {
                 </li>
                 <li className="mb-10 ml-6">
                     <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-8 ring-gray-900 bg-sky-600">
-                    <AcademicCapIcon className="w-4 h-4 text-blue-100" />
+                        <AcademicCapIcon className="w-4 h-4 text-blue-100" />
                     </span>
-                    <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">High School Diploma - Hercules High School</h3>
+                    <h3 className="flex items-center mb-1 text-lg font-semibold text-white">High School Diploma - Hercules High School</h3>
                     <time className="block mb-2 text-sm font-normal leading-none text-gray-400">June 2016</time>
                     <p className="mb-4 text-base font-normal text-gray-200 mr-0 ">
                         Standard high school degree. Rank #3 in the Class of 2016 with a GPA of 4.43 and various awards and certificates. 

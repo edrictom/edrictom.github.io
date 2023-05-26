@@ -7,8 +7,8 @@ export default function MainProfile() {
                 src="/Images/IMG_7235.jpg"
                 alt="Picture of Edric in front of a tree"
                 className="rounded-lg m-10"
-                width={800}
-                height={600}
+                width={600}
+                height={400}
                 priority
             />
             <h2 className="text-3xl font-bold pb-7">
