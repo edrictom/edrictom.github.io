@@ -10,10 +10,7 @@ export default function Languages() {
             </h1>
             <ul className="flex flex-row justify-evenly w-full flex-wrap">
                 <li>
-                    <Tooltip
-                        content="HTML5"
-                        placement="bottom"
-                    >
+                    <Tooltip content="HTML5" placement="bottom">
                         <FontAwesomeIcon
                             icon={ faHtml5 }
                             size="6x"
@@ -22,10 +19,7 @@ export default function Languages() {
                     </Tooltip>
                 </li>
                 <li>
-                    <Tooltip
-                        content="CSS 3"
-                        placement="bottom"
-                    >
+                    <Tooltip content="CSS 3" placement="bottom">
                         <FontAwesomeIcon
                             icon={ faCss3 }
                             size="6x"
@@ -34,10 +28,7 @@ export default function Languages() {
                     </Tooltip>
                 </li>
                 <li>
-                    <Tooltip
-                        content="JavaScript"
-                        placement="bottom"
-                    >
+                    <Tooltip content="JavaScript" placement="bottom">
                         <FontAwesomeIcon
                             icon={ faJsSquare }
                             size="6x"
@@ -46,10 +37,7 @@ export default function Languages() {
                     </Tooltip>
                 </li>
                 <li>
-                    <Tooltip
-                        content="Swift"
-                        placement="bottom"
-                    >
+                    <Tooltip content="Swift" placement="bottom">
                         <FontAwesomeIcon
                             icon={ faSwift }
                             size="6x"
@@ -58,10 +46,7 @@ export default function Languages() {
                     </Tooltip>
                 </li>
                 <li>
-                    <Tooltip
-                        content="Python"
-                        placement="bottom"
-                    >
+                    <Tooltip content="Python" placement="bottom">
                         <FontAwesomeIcon
                             icon={ faPython }
                             size="6x"
@@ -70,10 +55,7 @@ export default function Languages() {
                     </Tooltip>
                 </li>
                 <li>
-                    <Tooltip
-                        content="Java"
-                        placement="bottom"
-                    >
+                    <Tooltip content="Java" placement="bottom">
                         <FontAwesomeIcon
                             icon={ faJava }
                             size="6x"

@@ -2,11 +2,11 @@ import Profile from '@/components/Header/Profile/profile';
 import { XMarkIcon } from '@heroicons/react/24/solid';
 import Link from 'next/link';
 
-export default function SidebarNav({ navName, navObject, handleNavClick }) {
+export default function SidebarNav({ navName, navObject, handleNavClick, currentSection }) {
     const navTitles = Object.keys(navObject);
 
     return (
-        <nav className="flex-shrink-0 flex flex-col justify-start border-r-2 border-black pr-24 ml-8 my-0">
+        <nav aria-label="Sidebar navigation" className="flex-shrink-0 flex flex-col justify-start border-r-2 border-black pr-24 ml-8 my-0">
             <div className="sticky top-0 pt-8">
                 <div className="flex flex-row">
                     <Link href="/">
@@ -19,9 +19,8 @@ export default function SidebarNav({ navName, navObject, handleNavClick }) {
                         return (
                             <button
                                 key={ section }
-                                aria-selected={ section === navTitles[0] ? "true" : "false" }
                                 onClick={ handleNavClick }
-                                className="button-primary aria-selected:bg-sky-600"
+                                className={section === currentSection ? "selected-section hover-outline-color" : "button-primary hover-outline-color"}
                             >
                                 { section }
                             </button>

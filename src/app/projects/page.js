@@ -3,7 +3,6 @@
 
 // Import components
 import SidebarNav from '@/components/Utilities/sidebarNav';
-import { BookOpenIcon } from '@heroicons/react/24/solid';
 import { useState } from 'react';
 
 // Object containing navigation titles and their appropriate React components for rendering
@@ -21,19 +20,12 @@ export default function Projects() {
     // Pass click event handler into <SidebarNav /> child component
     const handleNavClick = event => {
         setSection(event.target.innerHTML);
-        const buttons = document.getElementById(navName).children;
-        for (let i = 0; i < buttons.length; ++i) {
-            let button = buttons[i];
-            if (button !== event.target) {
-                button.ariaSelected = "false";
-            }
-        }
     }
 
     // Render component
     return (
         <main className="flex min-h-screen flex-row">
-            <SidebarNav navName={navName} navObject={nav} handleNavClick={handleNavClick} />
+            <SidebarNav navName={navName} navObject={nav} handleNavClick={handleNavClick} currentSection={currentSection} />
             <section className="min-w-screen flex-grow">
                 {nav[currentSection]}
             </section>

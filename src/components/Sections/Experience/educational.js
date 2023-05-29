@@ -2,7 +2,10 @@ import { AcademicCapIcon, GlobeAltIcon } from '@heroicons/react/20/solid';
 
 export default function Educational() {
     return (
-        <div className="flex flex-col justify-center items-center h-full">
+        <div className="flex flex-col h-full">
+            <h1 className="text-4xl font-bold py-24 pl-32">
+                Educational
+            </h1>
             <ol className="relative border-l border-gray-400 self-center w-3/5">
                 <li className="mb-10 ml-6">
                     <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-8 ring-gray-900 bg-sky-600">

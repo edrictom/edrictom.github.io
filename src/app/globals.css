@@ -4,23 +4,47 @@
 
 @layer base {
     :root {
-      --foreground-rgb: 255 255 255;
+      --text-rgb: 255 255 255;
       --background-start-rgb: 82 82 82;
       --background-end-rgb: 24 24 27;
       --hover-rgb: 59 130 246;
       --tile-rgb: 107 114 128;
+      --button-text-rgb: 255, 255, 255;
       --button-focus-rgb: 2 132 199;
       --button-active-rgb: 7 89 133;
   }
 }
 
-
-.button-primary {
-  @apply text-center text-xl my-3 py-6 font-bold rounded-lg hover:ring hover:ring-blue-500 hover:shadow-2xl focus:bg-sky-600 active:bg-sky-800 transition-colors duration-75;
+.hover-outline-color:hover {
+  outline-color: rgb(var(--hover-rgb));
 }
 
+.tile {
+  background-color: rgb(var(--tile-rgb));
+}
+
+.button-primary {
+  @apply text-center text-xl my-3 py-6 font-bold rounded-lg outline outline-4 outline-transparent hover:shadow-2xl transition-colors duration-75;
+}
+
+.button-primary:active {
+  background-color: rgb(var(--button-active-rgb));
+}
+
+.selected-section {
+  @apply text-center text-xl my-3 py-6 font-bold rounded-lg outline outline-4 outline-transparent hover:shadow-2xl transition-colors duration-75;
+  background-color: rgb(var(--button-focus-rgb));
+  color: rgb(var(--button-text-rgb));
+}
+
+.selected-section:active {
+  background-color: rgb(var(--button-active-rgb));
+}
+
+
+
 body {
-  color: rgb(var(--foreground-rgb));
+  color: rgb(var(--text-rgb));
   background: linear-gradient(
       to bottom,
       transparent,

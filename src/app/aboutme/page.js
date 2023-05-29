@@ -23,20 +23,12 @@ export default function AboutMe() {
     // Pass click event handler into <SidebarNav /> child component
     const handleNavClick = event => {
         setSection(event.target.innerHTML);
-        event.target.ariaSelected = "true";
-        const buttons = document.getElementById(navName).children;
-        for (let i = 0; i < buttons.length; ++i) {
-            let button = buttons[i];
-            if (button !== event.target) {
-                button.ariaSelected = "false";
-            }
-        }
     }
 
     // Render component
     return (
         <main className="flex min-h-screen flex-row">
-            <SidebarNav navName={navName} navObject={ nav } handleNavClick={ handleNavClick } />
+            <SidebarNav navName={navName} navObject={ nav } handleNavClick={ handleNavClick } currentSection={currentSection}/>
             <section className="min-w-screen flex-grow">
                 { nav[currentSection] }
             </section>
