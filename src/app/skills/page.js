@@ -29,7 +29,7 @@ export default function Skills() {
     return (
         <main className="flex min-h-screen flex-row">
             <SidebarNav navName={navName} navObject={nav} handleNavClick={handleNavClick} currentSection={currentSection} />
-            <section className="min-w-screen flex-grow">
+            <section className="min-w-screen flex-grow mb-24">
                 {nav[currentSection]}
             </section>
         </main>

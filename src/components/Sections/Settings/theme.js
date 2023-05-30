@@ -1,4 +1,3 @@
- 
  export default function ThemePicker() {
     const colors = {
         "Blue": {

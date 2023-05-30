@@ -4,7 +4,7 @@ import SecondaryMenu from '@/components/SecondaryMenu/secondaryMenu';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen max-h-full flex-col items-center p-8">
+    <main className="flex min-w-screen max-w-full min-h-screen max-h-full flex-col items-center p-8">
       <Header />
       <MainMenu />
       <SecondaryMenu />

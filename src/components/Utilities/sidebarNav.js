@@ -10,7 +10,7 @@ export default function SidebarNav({ navName, navObject, handleNavClick, current
             <div className="sticky top-0 pt-8">
                 <div className="flex flex-row">
                     <Link href="/">
-                        <XMarkIcon className="w-12 h-12 m-5 mr-7 text-white" />
+                        <XMarkIcon className="w-12 h-12 m-5 mr-7 text-white hover:shadow-2xl hover:text-gray-400 transition-colors duration-75 ease-in-out" />
                     </Link>
                     <Profile />
                 </div>
