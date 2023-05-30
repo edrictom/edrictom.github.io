@@ -4,13 +4,14 @@
 // Import components
 import SidebarNav from '@/components/Utilities/sidebarNav';
 import ThemePicker from '@/components/Sections/Settings/theme';
+import About from '@/components/Sections/Settings/about';
 import { useState } from 'react';
 
 // Object containing navigation titles and their appropriate React components for rendering
 const nav = {
     "Background": <div>Change Background Image</div>,
     "Color Theme": <ThemePicker />,
-    "About": <div>About</div>
+    "About": <About />
 };
 
 export default function Settings() {
