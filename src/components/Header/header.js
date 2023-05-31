@@ -1,13 +1,13 @@
 import Profile from './Profile/profile';
-import Time from './updateTime';
+import Time from './time';
 import { Battery50Icon } from '@heroicons/react/24/solid';
 
 export default function Header() {
     return (
-        <header className="flex flex-row w-full max-w-full">
+        <header className="flex flex-row w-full max-w-full px-9 pt-9">
             <Profile />
-            <div className="flex flex-row p-1">
-                <Battery50Icon className="invisible lg:visible h-12 w-12 mt-2 text-white" />
+            <div className="flex flex-row">
+                <Battery50Icon className="hidden md:block mt-3.5 h-9 w-9 xl:h-12 xl:w-12 xl:pt-2 text-white" />
                 <Time />
             </div>
         </header>

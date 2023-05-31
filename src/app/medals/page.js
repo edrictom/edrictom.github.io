@@ -14,7 +14,7 @@ export default function Projects() {
                 <Profile />
             </div>
             <h1 className="py-16 text-7xl font-extrabold self-center">
-                Achievements
+                Medals
             </h1>
         </main>
     );

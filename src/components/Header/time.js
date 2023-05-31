@@ -18,6 +18,6 @@ export default function Time() {
 
     // Render React component
     return (
-        <p className="p-5 text-lg">{date.toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'})}</p>
+        <p className="pt-6 md:py-7 md:px-5 text-md xl:text-lg">{date.toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'})}</p>
     );
 };
