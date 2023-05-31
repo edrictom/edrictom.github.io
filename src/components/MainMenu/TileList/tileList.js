@@ -8,15 +8,15 @@ const tileData = [
         image: <UserCircleIcon className="h-12 w-12 xl:h-24 xl:w-24 text-black self-center" />,
         link: '/aboutme',
         height: "h-24 xl:h-96",
-        width: "w-24 xl:w-96",
+        width: "w-24 xl:w-96 m-6",
         key: 1
     },
     {
         title: 'Skills',
         image: <CodeBracketIcon className="h-12 w-12 xl:h-24 xl:w-24 text-black self-center" />,
         link: '/skills',
-        height: "h-24 xl:h-64 self-end",
-        width: "w-24 xl:w-64",
+        height: "h-24 xl:h-64",
+        width: "w-24 xl:w-64 mb-6",
         key: 2
     },
     { 
@@ -24,7 +24,7 @@ const tileData = [
         image: <BriefcaseIcon className="h-12 w-12 xl:h-24 xl:w-24 text-black self-center" />, 
         link: '/experience',
         height: "h-24 xl:h-64",
-        width: "w-24 xl:w-64",
+        width: "w-24 xl:w-64 mb-6",
         key: 3 
     },
     { 
@@ -32,7 +32,7 @@ const tileData = [
         image: <TrophyIcon className="h-12 w-12 xl:h-24 xl:w-24 text-black self-center" />, 
         link: '/achievements',
         height: "h-24 xl:h-64",
-        width: "w-24 xl:w-64",
+        width: "w-24 xl:w-64 mb-6",
         key: 4 
     },
     { 
@@ -40,14 +40,14 @@ const tileData = [
         image: <Cog8ToothIcon className="h-12 w-12 xl:h-24 xl:w-24 text-black self-center" />,
         link: '/settings',
         height: "h-24 xl:h-64",
-        width: "w-24 xl:w-64",
+        width: "w-24 xl:w-64 mb-6",
         key: 5 
     }
 ];
 
 export default function TileList() {
     return (
-        <ul className="flex flex-row flex-wrap md:flex-wrap space-x-3 justify-evenly">
+        <ul className="flex flex-row flex-wrap md:flex-wrap space-x-3 justify-evenly items-end">
             { tileData.map(tile => {
                 return <Tile height={ tile.height } width={ tile.width } title={ tile.title } image={ tile.image } link={ tile.link } key={ tile.key } />
             }) }
