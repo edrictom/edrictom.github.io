@@ -1,5 +1,5 @@
 // Import components
-import Profile from '@/components/Header/Profile/profile';
+import Profile from '@/components/Header/profile';
 import { XMarkIcon } from '@heroicons/react/24/solid';
 import Link from 'next/link';
 

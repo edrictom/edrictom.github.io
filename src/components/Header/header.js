@@ -1,4 +1,4 @@
-import Profile from './Profile/profile';
+import Profile from './profile';
 import Time from './time';
 import { Battery50Icon } from '@heroicons/react/24/solid';
 
