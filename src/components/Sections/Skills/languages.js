@@ -5,10 +5,10 @@ import { Tooltip } from 'flowbite-react';
 export default function Languages() {
     return (
         <div className="flex flex-col items-start">
-            <h1 className="p-28 text-4xl font-extrabold">
+            <h1 className="hidden md:block self-center p-28 text-4xl font-extrabold">
                 Languages
             </h1>
-            <ul className="flex flex-row justify-evenly w-full flex-wrap">
+            <ul className="grid grid-cols-2 place-items-center max-md:gap-4 md:flex md:flex-row md:justify-evenly w-full md:flex-wrap">
                 <li>
                     <Tooltip content="HTML5" placement="bottom">
                         <FontAwesomeIcon

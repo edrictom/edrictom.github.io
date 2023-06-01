@@ -25,9 +25,9 @@ export default function Experience() {
 
     // Render component
     return (
-        <main className="flex min-h-screen flex-row">
+        <main className="flex min-w-screen max-w-full min-h-screen max-h-full flex-row">
             <SidebarNav navName={navName} navObject={nav} handleNavClick={handleNavClick} currentSection={currentSection} />
-            <section className="min-w-screen flex-grow">
+            <section className="min-w-screen max-w-full min-h-screen max-h-full flex-grow">
                 {nav[currentSection]}
             </section>
         </main>
