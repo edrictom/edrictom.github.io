@@ -7,43 +7,43 @@ import { WindowIcon } from '@heroicons/react/24/outline';
 const socialsData = [
     {
         title: 'My projects & websites',
-        image: <WindowIcon className="h-10 w-10 xl:h-20 xl:w-20 text-black self-center" />,
+        image: <WindowIcon className="h-10 w-10 2xl:h-20 2xl:w-20 text-black self-center" />,
         link: '/projects',
-        height: "h-24 xl:h-32 2xl:h-64",
-        width: "w-32 xl:w-48 2xl:w-96 2xl:mr-10 md:mb-6",
+        height: "h-24 md:h-28 xl:h-32 2xl:h-64",
+        width: "w-32 md:w-40 xl:w-48 2xl:w-96 2xl:mr-10 md:mb-6",
         key: 1
     },
     {
         title: 'GitHub',
         image: <FontAwesomeIcon
                 icon={faGithub}
-                className="text-black text-4xl xl:text-6xl self-center"
+                className="text-black text-4xl 2xl:text-6xl self-center"
                 />,
         link: 'https://www.github.com/edrictom',
-        height: "h-24 xl:h-32 2xl:h-48",
-        width: "w-32 xl:w-48 2xl:w-80 md:mb-6",
+        height: "h-24 md:h-28 xl:h-32 2xl:h-48",
+        width: "w-32 md:w-40 xl:w-48 2xl:w-80 md:mb-6",
         key: 2
     },
     {
         title: 'LinkedIn',
         image: <FontAwesomeIcon
                 icon={faLinkedin}
-                className="text-black text-4xl xl:text-6xl self-center"
+                className="text-black text-4xl 2xl:text-6xl self-center"
                 />,
         link: 'https://www.linkedin.com/in/edric-tom-98ba34178',
-        height: "h-24 xl:h-32 2xl:h-48",
-        width: "w-32 xl:w-48 2xl:w-80 md:mb-6",
+        height: "h-24 md:h-28 xl:h-32 2xl:h-48",
+        width: "w-32 md:w-40 xl:w-48 2xl:w-80 md:mb-6",
         key: 3
     },
     {
         title: 'YouTube',
         image: <FontAwesomeIcon
                 icon={faYoutube}
-                className="text-black text-4xl xl:text-6xl self-center"
+                className="text-black text-4xl 2xl:text-6xl self-center"
                 />,
         link: 'https://youtube.com/@EdricTom',
-        height: "h-24 xl:h-32 2xl:h-48",
-        width: "w-32 xl:w-48 2xl:w-80 md:mb-6",
+        height: "h-24 md:h-28 xl:h-32 2xl:h-48",
+        width: "w-32 md:w-40 xl:w-48 2xl:w-80 md:mb-6",
         key: 4
     }
 ];

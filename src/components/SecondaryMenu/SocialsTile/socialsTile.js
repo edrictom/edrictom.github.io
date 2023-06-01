@@ -7,7 +7,7 @@ export default function SocialsTile({ height, width, title, image, link }) {
                 <div className="flex-1 flex pb-2 md:p-0">
                     { image }
                 </div>
-                <p className="absolute bottom-0 group-hover:block w-full pb-2 md:p-3 xl:p-4 font-semibold text-black text-xs xl:text-lg text-center md:text-left">
+                <p className="absolute bottom-0 group-hover:block w-full pb-2 md:p-3 xl:p-4 font-semibold text-black text-xs lg:text-sm 2xl:text-lg text-center md:text-left">
                     { title }
                 </p>
             </div>
