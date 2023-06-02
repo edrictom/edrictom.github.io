@@ -27,7 +27,7 @@ export default function AboutMe() {
 
     // Render component
     return (
-        <main className="flex min-w-screen max-w-full min-h-screen max-h-full flex-row">
+        <main className="flex min-w-screen max-w-full min-h-screen max-h-full flex-col md:flex-row">
             <SidebarNav navName={navName} navObject={ nav } handleNavClick={ handleNavClick } currentSection={currentSection}/>
             <section className="min-w-screen max-w-full min-h-screen max-h-full flex-grow">
                 { nav[currentSection] }
