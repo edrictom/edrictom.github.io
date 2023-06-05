@@ -1,9 +1,9 @@
 import Link from 'next/link';
 
-export default function Tile({ height, width, title, image, link }) {
+export default function Tile({ style, title, image, link }) {
     return (
         <Link href={ link }>
-            <div className={ "group relative shadow-2xl max-sm:mx-1 bg-gray-500 " + height + " " + width + " flex flex-col justify-center items-center rounded-lg outline outline-4 outline-transparent hover-outline-color transition-all duration-100" }>
+            <div className={ "group relative shadow-2xl max-sm:mx-1 bg-gray-500 " + style + " flex flex-col justify-center items-center rounded-lg outline outline-4 outline-transparent hover-outline-color transition-all duration-100" }>
                 <div className="flex-1 flex pb-2 md:p-0">
                     { image }
                 </div>
