@@ -1,6 +1,6 @@
 // TODO: Configure form validation and form submission routes.
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faEnvelope, faPen } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export default function Contact() {
     return (
@@ -19,13 +19,13 @@ export default function Contact() {
                     className="mt-1 block w-full px-10 rounded-md text-black bg-gray-200 border-transparent focus:border-blue-500 focus:bg-gray-100 focus:ring-0 placeholder-gray-400"
                 />
                 <label htmlFor="email" className="font-bold">Email:</label>
-                <input 
+                <span><FontAwesomeIcon icon={faEnvelope} className="relative left-4 top-12 text-gray-500" /></span><input 
                     required 
                     type="text" 
                     id="email" 
                     name="email" 
                     placeholder="edric@example.com" 
-                    className="mt-1 block w-full rounded-md text-black bg-gray-200 border-transparent focus:border-blue-500 focus:bg-gray-100 focus:ring-0 placeholder-gray-400"
+                    className="mt-1 block w-full px-10 rounded-md text-black bg-gray-200 border-transparent focus:border-blue-500 focus:bg-gray-100 focus:ring-0 placeholder-gray-400"
                 />
                 <textarea 
                     required 
