@@ -15,6 +15,10 @@
   }
 }
 
+.active-color {
+  color: rgb(var(--button-active-rgb));
+}
+
 .hover-outline-color:hover {
   @apply transition-[outline-color] ease-in-out duration-100;
   outline-color: rgb(var(--hover-rgb));

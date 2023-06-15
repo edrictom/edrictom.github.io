@@ -5,7 +5,7 @@ import { faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 export default function Contact() {
     return (
         <div className="min-w-full flex flex-col justify-center items-center">
-            <h2 className="font-extrabold text-white px-32 py-20 text-4xl self-start">
+            <h2 className="font-bold text-white px-32 py-20 text-4xl self-start">
                 Got an idea for a project? Please let me know!
             </h2>
             <form action="/api/form" method="POST" className="flex flex-col space-y-4 w-2/5">

@@ -1,5 +1,6 @@
 import Profile from '@/components/Header/profile';
-import { XMarkIcon } from '@heroicons/react/24/solid';
+import { IconContext } from 'react-icons';
+import { HiX } from 'react-icons/hi';
 import Link from 'next/link';
 
 export default function SidebarNav({ navName, navObject, handleNavClick, currentSection }) {
@@ -11,10 +12,12 @@ export default function SidebarNav({ navName, navObject, handleNavClick, current
                 <div className="flex flex-row max-md:pr-4">
                     <div className="flex-grow">
                         <Link href="/">
-                            <XMarkIcon className="w-12 h-12 m-5 mr-7 text-white hover:shadow-2xl hover:text-gray-400 transition-colors duration-75 ease-in-out" />
+                            <IconContext.Provider value={{className: "w-12 h-12 m-5 mr-7 text-white hover:shadow-2xl hover:text-gray-400 transition-colors duration-75 ease-in-out"}}>
+                                <HiX />
+                            </IconContext.Provider>
                         </Link>
                     </div>
-                    <div className="max-md:pt-2">
+                    <div className="max-md:pt-2 pt-1.5">
                         <Profile />
                     </div>
                 </div>

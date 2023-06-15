@@ -1,5 +1,6 @@
-import { faHeart } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FaHeart } from 'react-icons/fa';
+import { IconContext } from 'react-icons';
+
 export default function About() {
     return (
         <section className="flex flex-col justify-center items-center">
@@ -19,8 +20,12 @@ export default function About() {
                 <p className="text-xl my-4 w-3/5 text-center font-semibold">
                     This website was built with Next.js, styled with Tailwind CSS, and deployed using Vercel.
                 </p>
-                <footer className="pt-2">
-                    Made with <span><FontAwesomeIcon icon={faHeart} className="text-red-700" /> </span> by Edric Tom, July 2023
+                <footer className="pt-2 flex justify-center">
+                    Made with
+                        <IconContext.Provider value={{className: "text-red-600 mt-1 mx-2"}}>
+                            <FaHeart />
+                        </IconContext.Provider>
+                    by Edric Tom, July 2023
                 </footer>
             </div>
         </section>

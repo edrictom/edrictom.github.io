@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function MainProfile() {
     return (
         <article className="flex flex-col justify-center items-center">
-            <h1 className="px-32 pt-20 text-4xl font-extrabold self-start">
+            <h1 className="px-32 pt-20 text-4xl font-bold self-start">
                 Hi, I'm Edric!
             </h1>
             <Image
