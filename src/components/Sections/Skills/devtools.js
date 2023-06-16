@@ -11,10 +11,10 @@ export default function DevTools() {
             </h1>
             <IconContext.Provider value={ { className: "w-20 h-20 text-white self-center" } } >
                 <ul className="flex flex-row justify-evenly w-full">
-                    <li className="self-center tooltip tooltip-bottom tooltip-info" data-tip="Tailwind CSS">
+                    <li className="self-center tooltip tooltip-bottom tooltip-primary" data-tip="Tailwind CSS">
                         <SiTailwindcss />
                     </li>
-                    <li className="self-center tooltip tooltip-bottom" data-tip="Next.js">
+                    <li className="self-center tooltip tooltip-bottom tooltip-primary" data-tip="Next.js">
                         <SiNextdotjs />
                     </li>
                 </ul>
@@ -22,13 +22,13 @@ export default function DevTools() {
                     Libraries
                 </h1>
                 <ul className="flex flex-row justify-evenly w-full">
-                    <li className="self-center tooltip tooltip-bottom" data-tip="React">
+                    <li className="self-center tooltip tooltip-bottom tooltip-primary" data-tip="React">
                         <FontAwesomeIcon
                             icon={ faReact }
                             size="5x"
                         />
                     </li>
-                    <li className="self-center tooltip tooltip-bottom" data-tip="Font Awesome">
+                    <li className="self-center tooltip tooltip-bottom tooltip-primary" data-tip="Font Awesome">
                         <FontAwesomeIcon
                             icon={ faFontAwesome }
                             size="5x"
@@ -40,13 +40,13 @@ export default function DevTools() {
                     Code Editors and IDEs
                 </h1>
                 <ul className="flex flex-row justify-evenly w-full">
-                    <li className="self-center tooltip tooltip-bottom" data-tip="Xcode">
+                    <li className="self-center tooltip tooltip-bottom tooltip-primary" data-tip="Xcode">
                         <SiXcode />
                     </li>
-                    <li className="self-center tooltip tooltip-bottom" data-tip="Visual Studio Code">
+                    <li className="self-center tooltip tooltip-bottom tooltip-primary" data-tip="Visual Studio Code">
                         <SiVisualstudiocode />
                     </li>
-                    <li className="self-center tooltip tooltip-bottom" data-tip="Atom">
+                    <li className="self-center tooltip tooltip-bottom tooltip-primary" data-tip="Atom">
                         <SiAtom />
                     </li>
                 </ul>

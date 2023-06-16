@@ -8,6 +8,15 @@ module.exports = {
   theme: {
     
   },
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+          "primary": "#1f2937",
+        }
+      }
+    ]
+  },
   plugins: [
     require('@tailwindcss/forms'),
     require('daisyui')

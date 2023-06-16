@@ -12,7 +12,7 @@ export default function SidebarNav({ navName, navObject, handleNavClick, current
                 <div className="flex flex-row max-md:pr-4">
                     <div className="flex-grow">
                         <Link href="/">
-                            <IconContext.Provider value={{className: "w-12 h-12 m-5 mr-7 text-white hover:shadow-2xl hover:text-gray-400 transition-colors duration-75 ease-in-out"}}>
+                            <IconContext.Provider value={{className: "w-12 h-12 m-5 mr-7 text-white hover:text-gray-400 transition-colors duration-75 ease-in-out"}}>
                                 <HiX />
                             </IconContext.Provider>
                         </Link>
