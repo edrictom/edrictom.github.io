@@ -1,16 +1,24 @@
 import { FaHeart } from 'react-icons/fa';
 import { IconContext } from 'react-icons';
+import Image from 'next/image';
 
 export default function About() {
     return (
         <section className="flex flex-col justify-center items-center">
-            <h1 className="px-12 pt-16 text-2xl lg:px-32 lg:pt-20 whitespace-nowrap lg:text-4xl text-center font-extrabold lg:self-start">
+            <h1 className="px-12 py-16 text-2xl lg:px-32 lg:pt-20 whitespace-nowrap lg:text-4xl text-center font-extrabold lg:self-start">
                 About this App
             </h1>
             <div className="mt-10 pb-20 w-4/5 flex flex-col items-center">
-                <div className="h-24 w-24 p-36 m-12 rounded-full bg-emerald-500">
-
-                </div>
+                <Image
+                    src="/Images/IMG_3417.jpg"
+                    alt="Portrait of Edric"
+                    className="rounded-full w-96 h-96 object-cover object-right-top"
+                    height={ 0 }
+                    width={ 0 }
+                    quality={ 100 }
+                    sizes="100vw"
+                    priority
+                />
                 <h2 className="text-3xl font-bold py-8">
                     Portfolio
                 </h2>
@@ -22,9 +30,9 @@ export default function About() {
                 </p>
                 <footer className="pt-2 flex justify-center">
                     Made with
-                        <IconContext.Provider value={{className: "text-red-600 mt-1 mx-2"}}>
-                            <FaHeart />
-                        </IconContext.Provider>
+                    <IconContext.Provider value={ { className: "text-red-600 mt-1 mx-2" } }>
+                        <FaHeart />
+                    </IconContext.Provider>
                     by Edric Tom, July 2023
                 </footer>
             </div>

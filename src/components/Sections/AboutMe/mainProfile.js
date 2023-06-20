@@ -7,41 +7,50 @@ export default function MainProfile() {
             <h1 className="px-32 pt-20 text-4xl font-bold self-start">
                 Hi, I'm Edric!
             </h1>
-            <div className="carousel w-4/5 h-auto">
-                <div id="slide1" className="carousel-item relative w-4/5">
+            <div className="carousel w-2/5 h-auto m-10">
+                <div id="slide1" className="carousel-item relative w-full">
                     <Image
                         src="/Images/IMG_7235.jpg"
                         alt="Picture of Edric in front of a tree"
                         height="0"
                         width="0"
                         sizes="100vw"
-                        className="rounded-lg m-10 w-2/5 h-auto"
+                        className="rounded-lg w-full h-auto"
                         priority
                     />
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide4" className="btn btn-circle">❮</a>
-                        <a href="#slide2" className="btn btn-circle">❯</a>
+                        <a href="#slide3" className="btn btn-circle">&#10094;</a>
+                        <a href="#slide2" className="btn btn-circle">&#10095;</a>
                     </div>
                 </div>
                 <div id="slide2" className="carousel-item relative w-full">
-                    <img src="/images/stock/photo-1609621838510-5ad474b7d25d.jpg" className="w-full" />
+                    <Image
+                        src="/Images/IMG_1589.jpg"
+                        alt="Picture of Edric in front of the ocean"
+                        height="0"
+                        width="0"
+                        sizes="100vw"
+                        className="rounded-lg w-full h-auto"
+                        priority
+                    />
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide1" className="btn btn-circle">❮</a>
-                        <a href="#slide3" className="btn btn-circle">❯</a>
+                        <a href="#slide1" className="btn btn-circle">&#10094;</a>
+                        <a href="#slide3" className="btn btn-circle">&#10095;</a>
                     </div>
                 </div>
                 <div id="slide3" className="carousel-item relative w-full">
-                    <img src="/images/stock/photo-1414694762283-acccc27bca85.jpg" className="w-full" />
+                    <Image
+                        src="/Images/AfterlightImage.jpg"
+                        alt="Picture of Edric in front of his Veloster N"
+                        height="0"
+                        width="0"
+                        sizes="100vw"
+                        className="rounded-lg w-full h-auto"
+                        priority
+                    />
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide2" className="btn btn-circle">❮</a>
-                        <a href="#slide4" className="btn btn-circle">❯</a>
-                    </div>
-                </div>
-                <div id="slide4" className="carousel-item relative w-full">
-                    <img src="/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" className="w-full" />
-                    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide3" className="btn btn-circle">❮</a>
-                        <a href="#slide1" className="btn btn-circle">❯</a>
+                        <a href="#slide2" className="btn btn-circle">&#10094;</a>
+                        <a href="#slide1" className="btn btn-circle">&#10095;</a>
                     </div>
                 </div>
             </div>
