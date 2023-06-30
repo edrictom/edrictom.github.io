@@ -16,6 +16,9 @@ export default function Projects() {
             <h1 className="py-16 text-7xl font-extrabold self-center">
                 Medals
             </h1>
+            <h3 className="self-center text-4xl font-semibold mt-16 py-16 px-10 rounded-xl bg-blue-800">
+                Coming soon...
+            </h3>
         </main>
     );
 }

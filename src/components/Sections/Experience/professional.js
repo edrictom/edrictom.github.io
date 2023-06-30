@@ -3,7 +3,7 @@ import { HomeIcon, ComputerDesktopIcon, ServerStackIcon } from '@heroicons/react
 export default function Professional() {
     return (
         <div className="flex flex-col h-full">
-            <h1 className="text-xl xl:text-4xl font-bold xl:py-24 xl:pl-32 xl:self-start self-center py-6 justify-self-start">
+            <h1 className="text-xl lg:text-2xl xl:text-4xl font-bold lg:py-20 xl:py-24 xl:pl-32 xl:self-start self-center py-6 justify-self-start">
                 Professional Experience
             </h1>
             <ol className="relative border-l border-gray-400 self-center w-9/12 xl:w-3/5 mb-9">
