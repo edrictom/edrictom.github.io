@@ -1,7 +1,7 @@
 import SocialsTile from '../SocialsTile/socialsTile';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faYoutube} from '@fortawesome/free-brands-svg-icons';
-import { WindowIcon } from '@heroicons/react/24/outline';
+import { WindowIcon } from '@heroicons/react/24/solid';
 
 
 const socialsData = [

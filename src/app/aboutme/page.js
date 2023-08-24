@@ -5,14 +5,14 @@
 import SidebarNav from '@/components/Utilities/sidebarNav';
 import MainProfile from '@/components/Sections/AboutMe/mainProfile';
 import Hobbies from '@/components/Sections/AboutMe/hobbies';
-import Contact from '@/components/Sections/AboutMe/contact';
+import Skills from '@/components/Sections/AboutMe/skills';
 import { useState } from 'react';
 
 // Object containing navigation titles and their appropriate React components for rendering
 const nav = {
     "Profile": <MainProfile />,
-    "Hobbies": <Hobbies />,
-    "Contact": <Contact />
+    "Skills": <Skills />,
+    "Hobbies": <Hobbies />
 };
 
 export default function AboutMe() {
@@ -29,7 +29,7 @@ export default function AboutMe() {
     return (
         <main className="flex min-w-screen max-w-full min-h-screen max-h-full flex-col md:flex-row">
             <SidebarNav navName={navName} navObject={ nav } handleNavClick={ handleNavClick } currentSection={currentSection}/>
-            <section className="min-w-screen max-w-full min-h-screen max-h-full flex-grow">
+            <section className="min-w-screen max-w-full min-h-screen max-h-full flex-grow pb-10">
                 { nav[currentSection] }
             </section>
         </main>

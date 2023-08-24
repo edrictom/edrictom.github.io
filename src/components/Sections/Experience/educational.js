@@ -16,7 +16,7 @@ export default function Educational() {
                             Latest
                         </span>
                     </h3>
-                    <time className="block mb-2 text-sm font-normal leading-none text-gray-400">In Progress -&gt; Expected July 2023</time>
+                    <time className="block mb-2 text-sm font-normal leading-none text-gray-400">In Progress -&gt; Expected September 2023</time>
                     <p className="mb-4 text-base font-normal text-gray-200 mr-0 ">
                         Online coding certification program to learn the languages and technologies to become a successful Front-End Engineer. In this course, I have learned the basics of UI and UX design
                         including wireframing and color theory, built fast dynamic sites using JavaScript, React, and Redux, and have completed portfolio projects to show what I've learned.

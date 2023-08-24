@@ -11,7 +11,7 @@ export default function SidebarNav({ navName, navObject, handleNavClick, current
             <div className="sticky top-0 pt-4 lg:pt-8">
                 <div className="flex flex-row max-lg:pr-4">
                     <div className="flex-grow">
-                        <Link href="/">
+                        <Link href="/#home">
                             <IconContext.Provider value={{className: "w-12 h-12 m-5 mr-7 text-white hover:text-gray-400 transition-colors duration-75 ease-in-out"}}>
                                 <HiX />
                             </IconContext.Provider>

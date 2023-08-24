@@ -1,6 +1,5 @@
 import Tile from '../Tile/tile';
-import { CodeBracketIcon, BriefcaseIcon, Cog8ToothIcon } from '@heroicons/react/24/outline';
-import { UserCircleIcon } from '@heroicons/react/24/solid';
+import { UserCircleIcon, EnvelopeIcon, BriefcaseIcon, Cog8ToothIcon } from '@heroicons/react/24/solid';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMedal } from '@fortawesome/free-solid-svg-icons';
 
@@ -12,19 +11,12 @@ const tileData = [
         style: "h-24 md:h-32 lg:h-44 2xl:h-96 w-24 md:w-32 lg:w-44 2xl:w-96 2xl:m-6 md:mb-6",
         key: 1
     },
-    {
-        title: 'Skills',
-        image: <CodeBracketIcon className="h-10 w-10 md:h-12 md:w-12 lg:h-16 lg:w-16 2xl:h-24 2xl:w-24 text-black self-center" />,
-        link: '/skills',
-        style: "h-24 md:h-32 lg:h-44 2xl:h-64 w-24 md:w-32 lg:w-44 2xl:w-64 md:mb-6",
-        key: 2
-    },
     { 
         title: 'Experience', 
         image: <BriefcaseIcon className="h-10 w-10 md:h-12 md:w-12 lg:h-16 lg:w-16 2xl:h-24 2xl:w-24 text-black self-center" />, 
         link: '/experience',
         style: "h-24 md:h-32 lg:h-44 2xl:h-64 w-24 md:w-32 lg:w-44 2xl:w-64 md:mb-6",
-        key: 3 
+        key: 2 
     },
     { 
         title: 'Medals', 
@@ -34,7 +26,14 @@ const tileData = [
                 />, 
         link: '/medals',
         style: "h-24 md:h-32 lg:h-44 2xl:h-64 w-24 md:w-32 lg:w-44 2xl:w-64 md:mb-6",
-        key: 4 
+        key: 3 
+    },
+    {
+        title: 'Contact',
+        image: <EnvelopeIcon className="h-10 w-10 md:h-12 md:w-12 lg:h-16 lg:w-16 2xl:h-24 2xl:w-24 text-black self-center" />,
+        link: '/contact',
+        style: "h-24 md:h-32 lg:h-44 2xl:h-64 w-24 md:w-32 lg:w-44 2xl:w-64 md:mb-6",
+        key: 4
     },
     { 
         title: 'Settings', 
@@ -42,7 +41,7 @@ const tileData = [
         link: '/settings',
         style: "h-24 md:h-32 lg:h-44 2xl:h-64 w-24 md:w-32 lg:w-44 2xl:w-64 md:mb-6",
         key: 5 
-    }
+    },
 ];
 
 export default function TileList() {

@@ -1,17 +1,26 @@
+'use client';
+
 // Import components
 import Profile from '@/components/Header/profile';
-import { XMarkIcon } from '@heroicons/react/24/solid';
+import { IconContext } from 'react-icons';
+import { HiX } from 'react-icons/hi';
 import Link from 'next/link';
 
-export default function Projects() {
+export default function Medals() {
     // Render component
     return (
         <main className="flex min-h-screen min-w-screen flex-col">
-            <div className="flex flex-row pt-10">
-                <Link href="/">
-                    <XMarkIcon className="w-12 h-12 m-5 mr-7 text-white" />
-                </Link>
-                <Profile />
+            <div className="flex flex-row max-lg:pr-4 self-start py-6">
+                <div className="flex-grow">
+                    <Link href="/#home">
+                        <IconContext.Provider value={{ className: "w-12 h-12 m-5 mr-7 text-white hover:text-gray-400 transition-colors duration-75 ease-in-out" }}>
+                            <HiX />
+                        </IconContext.Provider>
+                    </Link>
+                </div>
+                <div className="max-lg:pt-2 pt-1.5">
+                    <Profile />
+                </div>
             </div>
             <h1 className="py-16 text-7xl font-extrabold self-center">
                 Medals
