@@ -5,7 +5,7 @@ export default function MainProfile() {
     return (
         <article className="flex flex-col justify-center items-center">
             <h1 className="px-32 pt-20 text-4xl font-bold self-start">
-                Hi, I'm Edric!
+                Hi, I&apos;m Edric!
             </h1>
             <div className="carousel w-2/5 h-auto m-10">
                 <div id="slide1" className="carousel-item relative w-full">
