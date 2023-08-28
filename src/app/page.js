@@ -15,7 +15,7 @@ export default function Home() {
             Hi,
           </h1>
           <h1 className="font-extrabold text-6xl">
-            I'm Edric Tom!
+            I&apos;m Edric Tom!
           </h1>
         </div>
         <IconContext.Provider value={ { className: "w-12 h-12 mb-5 text-white justify-self-end self-center mt-auto animate-bounce" } }>

@@ -19,7 +19,7 @@ export default function Educational() {
                     <time className="block mb-2 text-sm font-normal leading-none text-gray-400">In Progress -&gt; Expected September 2023</time>
                     <p className="mb-4 text-base font-normal text-gray-200 mr-0 ">
                         Online coding certification program to learn the languages and technologies to become a successful Front-End Engineer. In this course, I have learned the basics of UI and UX design
-                        including wireframing and color theory, built fast dynamic sites using JavaScript, React, and Redux, and have completed portfolio projects to show what I've learned.
+                        including wireframing and color theory, built fast dynamic sites using JavaScript, React, and Redux, and have completed portfolio projects to show what I have learned.
                     </p>
                 </li>
                 <li className="mb-10 ml-6">
@@ -29,7 +29,7 @@ export default function Educational() {
                     <h3 className="flex items-center mb-1 text-lg font-semibold text-white">Computer Science B.S. - University of California, Davis</h3>
                     <time className="block mb-2 text-sm font-normal leading-none text-gray-400">June 2020</time>
                     <p className="mb-4 text-base font-normal text-gray-200 mr-0 ">
-                        Completed Bachelor's Degree program with a GPA of 3.1 to learn the basics of Computer Science, including object-oriented programming, data structures, computer security,
+                        Completed Bachelor&apos;s Degree program with a GPA of 3.1 to learn the basics of Computer Science, including object-oriented programming, data structures, computer security,
                         web development, networks, and algorithm design. Learned how to write clean code, write detailed documentation, and collaborate with others using
                         Git and GitHub.
                     </p>

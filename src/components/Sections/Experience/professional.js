@@ -28,7 +28,7 @@ export default function Professional() {
                         <ServerStackIcon className="w-4 h-4 text-blue-100" />
                     </span>
                     <h3 className="flex items-center mb-1 text-lg font-semibold text-white">
-                        Business Technical Support Analyst - UC Davis College of Biological Sciences Dean's Office
+                        Business Technical Support Analyst - UC Davis College of Biological Sciences Dean&apos;s Office
                         <span className="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-blue-900 text-blue-300 ml-3">
                             Latest
                         </span>
@@ -40,7 +40,7 @@ export default function Professional() {
                         users, groups, and mailing lists through Windows Server 2016, imaging and deploying new hardware to users including network devices, troubleshooting 
                         hardware and software issues and problems both in-person and remotely using BeyondTrust Remote Support and Microsoft Remote Desktop, and
                         handling multiple concurrent IT projects that involve close collaboration with coworkers, clients, and vendors. <br/><br/>Accomplishments in this role involve
-                        reducing the team's ticket queue by over 75%, upgrading legacy hardware (i.e. printers, desktops, monitors) to modern standards, implementing hardware
+                        reducing the team&apos;s ticket queue by over 75%, upgrading legacy hardware (i.e. printers, desktops, monitors) to modern standards, implementing hardware
                         standards for Evolution and Ecology, and reduce computer imaging time by over 60%.
                     </p>
                 </li>

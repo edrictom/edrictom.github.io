@@ -55,10 +55,10 @@ export default function MainProfile() {
                 </div>
             </div>
             <p className="text-white text-left text-lg w-3/5">
-                Born in 1998 and based out of the San Francisco Bay Area, I am a front-end focused web developer. I'm passionate about beautifully designed,
+                Born in 1998 and based out of the San Francisco Bay Area, I am a front-end focused web developer. I&apos;m passionate about beautifully designed,
                 modern user interfaces that are intuitively implemented and do not sacrifice functionality.
                 <br /><br />
-                I am currently working as an IT Support Lead for the Dean's Office of the UC Davis College of Biological Sciences in Davis, CA. However, I am
+                I am currently working as an IT Support Lead for the Dean&apos;s Office of the UC Davis College of Biological Sciences in Davis, CA. However, I am
                 looking to work as a front-end engineer or a web developer in order to advance my career goals and further improve my skills.
             </p>
         </article>
