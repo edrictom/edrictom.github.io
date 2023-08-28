@@ -17,7 +17,7 @@ export default function Professional() {
                             Latest
                         </span>
                     </h3>
-                    <p className="block mb-2 text-sm font-normal leading-none text-gray-400"><b>Freelance</b> // January 2023 -&gt; Current</p>
+                    <p className="block mb-2 text-sm font-normal leading-none text-gray-400"><b>Freelance</b> &#47;&#47; January 2023 -&gt; Current</p>
                     <p className="mb-4 text-base font-normal text-gray-200 mr-0 ">
                         Meet with clients to discuss their website needs. Build, style, and deploy production websites using Vercel, Next.js, React,
                         Node.js, Tailwind CSS, Express, and more.
@@ -33,7 +33,7 @@ export default function Professional() {
                             Latest
                         </span>
                     </h3>
-                    <p className="block mb-2 text-sm font-normal leading-none text-gray-400"><b>Full-Time</b> // February 2021 -&gt; Current</p>
+                    <p className="block mb-2 text-sm font-normal leading-none text-gray-400"><b>Full-Time</b> &#47;&#47; February 2021 -&gt; Current</p>
                     <p className="mb-4 text-base font-normal text-gray-200 mr-0 ">
                         Oversee general IT service desk and desktop support tasks for the Dean&apos;s Office, Department of Evolution and Ecology, and the administrative staff of
                         the departments of Neurobiology, Physiology, and Behavior and Plant Biology. <br/><br/> Primary job functions include managing college-wide active directory 
@@ -49,7 +49,7 @@ export default function Professional() {
                         <ComputerDesktopIcon className="w-4 h-4 text-blue-100" />
                     </span>
                     <h3 className="flex items-center mb-1 text-lg font-semibold text-white">Lead IT Support Specialist - UC Davis School of Education</h3>
-                    <p className="block mb-2 text-sm font-normal leading-none text-gray-400"><b>Part-Time</b> // February 2017 -&gt; October 2020</p>
+                    <p className="block mb-2 text-sm font-normal leading-none text-gray-400"><b>Part-Time</b> &#47;&#47; February 2017 -&gt; October 2020</p>
                     <p className="mb-4 text-base font-normal text-gray-200 mr-0 ">
                         Lead a team of other students to perform desktop support and service desk functions for the School of Education IT department. <br/><br/>
                         Primary role functions include troubleshooting technical issues both in-person and remotely using BeyondTrust Remote Support and Apple Remote Desktop to
