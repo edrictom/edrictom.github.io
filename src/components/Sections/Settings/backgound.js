@@ -4,8 +4,7 @@ export default function Background() {
         "Ocean": "url('/Images/patrick-perkins-xUTwSZqqFxQ-unsplash.jpg')",
         "Forest": '',
         "Wood": '',
-        "Skyline": '',
-        "Track": ''
+        "Skyline": ''
     }
 
     const handleClick = event => {
@@ -35,6 +34,11 @@ export default function Background() {
                 </div>
                 <div className="flex flex-col">
                     <button id="Wood" onClick={handleClick} className="bg-emerald-600 outline outline-4 outline-transparent hover:outline-green-500 active:bg-emerald-800 ring-transparent text-center text-xl my-3 px-12 py-6 font-bold rounded-lg transition-all duration-75">
+                        Wood
+                    </button>
+                </div>
+                <div className="flex flex-col">
+                    <button id="Skyline" onClick={handleClick} className="bg-emerald-600 outline outline-4 outline-transparent hover:outline-green-500 active:bg-emerald-800 ring-transparent text-center text-xl my-3 px-12 py-6 font-bold rounded-lg transition-all duration-75">
                         Wood
                     </button>
                 </div>
