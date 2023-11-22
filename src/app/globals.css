@@ -52,6 +52,7 @@
 }
 
 body {
+  behavior: smooth;
   color: rgb(var(--text-rgb));
   background: linear-gradient(
       to bottom,

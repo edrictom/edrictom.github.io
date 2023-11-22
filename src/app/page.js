@@ -6,9 +6,13 @@ import SecondaryMenu from '@/components/SecondaryMenu/secondaryMenu';
 import { IconContext } from 'react-icons';
 import { HiChevronDoubleDown } from 'react-icons/hi';
 
+const stickyScroll = event => {
+    
+};
+
 export default function Home() {
   return (
-    <main className="min-w-full min-h-screen active-bg bg-fixed bg-cover bg-no-repeat bg-center">
+    <main onScroll={stickyScroll} className="min-w-full min-h-screen active bg-fixed bg-cover bg-no-repeat bg-center">
       <section className="w-full h-screen backdrop-blur-xl flex flex-col justify-center items-start">
         <div className="ml-24 justify-self-center mt-auto">
           <h1 className="font-extrabold text-6xl pb-5">

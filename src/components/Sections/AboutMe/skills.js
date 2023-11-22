@@ -5,7 +5,7 @@ import { IconContext } from 'react-icons';
 import { SiAtom, SiTailwindcss, SiNextdotjs, SiVisualstudiocode, SiXcode } from 'react-icons/si';
 import { faHtml5, faCss3, faJsSquare, faSwift, faPython, faJava } from "@fortawesome/free-brands-svg-icons";
 
-export default function Contact() {
+export default function Skills() {
     return (
         <div className="flex flex-col items-start">
             <h1 className="hidden md:block px-32 pt-20 text-4xl font-extrabold self-start">
