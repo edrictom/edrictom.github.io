@@ -2,14 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 82, 82, 82;
-    --background-end-rgb: 24, 24, 27;
+@layer base {
+    :root {
+      --wallpaper-url: url('/Images/patrick-perkins-xUTwSZqqFxQ-unsplash.jpg');
+      --text-rgb: 255 255 255;
+      --background-start-rgb: 82 82 82;
+      --background-end-rgb: 24 24 27;
+      --hover-rgb: 59 130 246;
+      --tile-rgb: 107 114 128;
+      --button-text-rgb: 255, 255, 255;
+      --button-focus-rgb: 2 132 199;
+      --button-active-rgb: 7 89 133;
+  }
+}
+
+.active-bg {
+  background-image: var(--wallpaper-url);
+}
+
+.active-color {
+  color: rgb(var(--button-active-rgb));
+}
+
+.hover-outline-color:hover {
+  @apply transition-[outline-color] ease-in-out duration-100;
+  outline-color: rgb(var(--hover-rgb));
+}
+
+.tile {
+  background-color: rgb(var(--tile-rgb));
+}
+
+.button-primary {
+  @apply text-center text-base md:text-xl my-3 md:py-6 font-bold rounded-lg outline outline-4 outline-transparent hover:shadow-2xl transition-[outline-color] ease-in-out duration-100;
+}
+
+.button-primary:active {
+  background-color: rgb(var(--button-active-rgb));
+}
+
+.selected-section {
+  @apply text-center text-base md:text-xl my-3 md:py-6 font-bold rounded-lg outline outline-4 outline-transparent hover:shadow-2xl transition-[outline-color] ease-in-out duration-100;
+  background-color: rgb(var(--button-focus-rgb));
+  color: rgb(var(--button-text-rgb));
+}
+
+.selected-section:active {
+  background-color: rgb(var(--button-active-rgb));
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  behavior: smooth;
+  color: rgb(var(--text-rgb));
   background: linear-gradient(
       to bottom,
       transparent,

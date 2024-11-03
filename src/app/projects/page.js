@@ -14,6 +14,7 @@ const nav = {
 
 export default function Projects() {
     const [currentSection, setSection] = useState("All Projects");
+    const navName = "projectsNav";
 
     // Render different sections of the 'Projects' page based on which nav button is clicked,
     // Pass click event handler into <SidebarNav /> child component
@@ -23,10 +24,14 @@ export default function Projects() {
 
     // Render component
     return (
-        <main className="flex min-h-screen flex-row">
-            <SidebarNav navObject={nav} handleNavClick={handleNavClick} />
-            <section className="min-w-screen flex-grow">
-                {nav[currentSection]}
+        <main className="flex min-w-screen max-w-full min-h-screen max-h-full flex-col md:flex-row">
+            <SidebarNav navName={navName} navObject={nav} handleNavClick={handleNavClick} currentSection={currentSection} />
+            <section className="min-w-screen max-w-full min-h-screen max-h-full flex-grow">
+                <section className="flex min-h-screen min-w-screen flex-col">
+                    <h3 className="self-center text-4xl font-semibold mt-16 py-16 px-10 rounded-xl bg-blue-800">
+                        Coming soon...
+                    </h3>
+                </section>
             </section>
         </main>
     );
