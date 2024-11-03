@@ -29,7 +29,6 @@ export default function Background() {
                             className="rounded-lg"
                             alt="Background image of an ocean"
                         />
-                        <p className="absolute top-1/2 left-1/2 font-bold text-2xl">Ocean</p>
                     </button>
                 </div>
                 <div className="flex flex-col my-6">

@@ -12,15 +12,21 @@ export default function Professional() {
                         <HomeIcon className="w-4 h-4 text-blue-100" />
                     </span>
                     <h3 className="flex items-center mb-1 text-lg font-semibold text-white">
-                        Web Developer
+                        Apprentice Systems Tech @ Meta
                         <span className="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-blue-900 text-blue-300 ml-3">
                             Latest
                         </span>
                     </h3>
-                    <p className="block mb-2 text-sm font-normal leading-none text-gray-400"><b>Freelance</b> &#47;&#47; January 2023 -&gt; Current</p>
+                    <p className="block mb-2 text-sm font-normal leading-none text-gray-400"><b>Full-Time</b> &#47;&#47; January 2024 -&gt; Current</p>
                     <p className="mb-4 text-base font-normal text-gray-200 mr-0 ">
-                        Meet with clients to discuss their website needs. Build, style, and deploy production websites using Vercel, Next.js, React,
-                        Node.js, Tailwind CSS, Express, and more.
+                        Complete Systems Engineering training by completing company-curated courses and completing
+                        an assigned coding project written in Python to deliver impact to the Enterprise Engineering department of Meta by
+                        reducing developer downtime and errors connecting to remote servers by over 60%. <br></br><br></br>
+                        In addition to completing the systems engineering coursework, supported the SF Bay Area Helpdesk locations by troubleshooting
+                        complex software and hardware issues, providing white glove support to VIPs and C-suite staff, and imaging new 
+                        employee-assigned assets. Also identified and collaborated with cross-functional teams to mitigate Android enrollment
+                        failures by over 75%, as well as developed procedures and processes to speed up New Hire tech support troubleshooting
+                        at the Helpdesk, reducing queue wait time by over 40% during New Hire Orientation.
                     </p>
                 </li>
                 <li className="mb-10 ml-6">
@@ -28,12 +34,9 @@ export default function Professional() {
                         <ServerStackIcon className="w-4 h-4 text-blue-100" />
                     </span>
                     <h3 className="flex items-center mb-1 text-lg font-semibold text-white">
-                        Business Technical Support Analyst - UC Davis College of Biological Sciences Dean&apos;s Office
-                        <span className="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-blue-900 text-blue-300 ml-3">
-                            Latest
-                        </span>
+                        Business Technical Support Analyst @ UC Davis - College of Biological Sciences
                     </h3>
-                    <p className="block mb-2 text-sm font-normal leading-none text-gray-400"><b>Full-Time</b> &#47;&#47; February 2021 -&gt; Current</p>
+                    <p className="block mb-2 text-sm font-normal leading-none text-gray-400"><b>Full-Time</b> &#47;&#47; February 2021 -&gt; January 2024</p>
                     <p className="mb-4 text-base font-normal text-gray-200 mr-0 ">
                         Oversee general IT service desk and desktop support tasks for the Dean&apos;s Office, Department of Evolution and Ecology, and the administrative staff of
                         the departments of Neurobiology, Physiology, and Behavior and Plant Biology. <br/><br/> Primary job functions include managing college-wide active directory 
