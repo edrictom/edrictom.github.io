@@ -26,9 +26,9 @@ export default function Projects() {
     return (
         <main className="flex min-w-screen max-w-full min-h-screen max-h-full flex-col md:flex-row">
             <SidebarNav navName={navName} navObject={nav} handleNavClick={handleNavClick} currentSection={currentSection} />
-            <section className="min-w-screen max-w-full min-h-screen max-h-full flex-grow">
-                <section className="flex min-h-screen min-w-screen flex-col">
-                    <h3 className="self-center text-4xl font-semibold mt-16 py-16 px-10 rounded-xl bg-blue-800">
+            <section className="max-w-screen min-h-screen max-h-full grow">
+                <section className="flex min-h-screen max-w-screen flex-col">
+                    <h3 className="self-center justify-center text-4xl font-semibold mt-16 py-16 px-10 rounded-xl bg-blue-800">
                         Coming soon...
                     </h3>
                 </section>

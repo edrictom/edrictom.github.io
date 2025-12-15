@@ -29,7 +29,7 @@ export default function AboutMe() {
     return (
         <main className="flex min-w-screen max-w-full min-h-screen max-h-full flex-col md:flex-row">
             <SidebarNav navName={navName} navObject={ nav } handleNavClick={ handleNavClick } currentSection={currentSection}/>
-            <section className="min-w-screen max-w-full min-h-screen max-h-full flex-grow pb-10">
+            <section className="max-w-screen min-h-screen max-h-full grow pb-10">
                 { nav[currentSection] }
             </section>
         </main>

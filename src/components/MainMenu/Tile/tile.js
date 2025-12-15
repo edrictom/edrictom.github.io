@@ -7,7 +7,7 @@ export default function Tile({ style, title, image, link }) {
                 <div className="flex-1 flex pb-2 md:p-0">
                     { image }
                 </div>
-                <p className="md:hidden absolute bottom-0 group-hover:block w-full pb-2 md:p-4 font-semibold text-xs md:text-lg text-center md:text-left text-black md:text-white md:bg-gradient-to-t from-gray-600 rounded-b-lg">
+                <p className="md:hidden absolute bottom-0 group-hover:block w-full pb-2 md:p-4 font-semibold text-xs md:text-lg text-center md:text-left text-black md:text-white md:bg-linear-to-t from-gray-600 rounded-b-lg">
                     { title }
                 </p>
             </div>

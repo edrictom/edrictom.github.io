@@ -11,9 +11,9 @@ import Link from 'next/link';
 export default function Contact() {
     // Render component
     return (
-        <main className="min-w-screen min-h-screen flex flex-col justify-start items-center ">
+        <main className="max-w-screen min-h-screen flex flex-col justify-start items-center ">
             <div className="flex flex-row max-lg:pr-4 self-start pb-2 pt-3 pl-3">
-                <div className="flex-grow">
+                <div className="grow">
                     <Link href="/#home">
                         <IconContext.Provider value={{ className: "w-12 h-12 m-5 mr-7 text-white hover:text-gray-400 transition-colors duration-75 ease-in-out" }}>
                             <HiX />
