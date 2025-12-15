@@ -29,7 +29,7 @@ export default function Settings() {
     return (
         <main className="flex min-w-screen max-w-full min-h-screen max-h-full flex-col md:flex-row">
             <SidebarNav navName={navName} navObject={nav} handleNavClick={handleNavClick} currentSection={currentSection} />
-            <section className="min-w-screen max-w-full min-h-screen max-h-full flex-grow">
+            <section className="max-w-screen min-h-screen max-h-full grow">
                 {nav[currentSection]}
             </section>
         </main>

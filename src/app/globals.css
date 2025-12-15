@@ -1,6 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@plugin "daisyui";
 
 @layer base {
     :root {
@@ -34,7 +33,7 @@
 }
 
 .button-primary {
-  @apply text-center text-base md:text-xl my-3 md:py-6 font-bold rounded-lg outline outline-4 outline-transparent hover:shadow-2xl transition-[outline-color] ease-in-out duration-100;
+  @apply text-center text-base md:text-xl my-3 md:py-6 font-bold rounded-lg outline-4 outline-transparent hover:shadow-2xl transition-[outline-color] ease-in-out duration-100;
 }
 
 .button-primary:active {
@@ -42,7 +41,7 @@
 }
 
 .selected-section {
-  @apply text-center text-base md:text-xl my-3 md:py-6 font-bold rounded-lg outline outline-4 outline-transparent hover:shadow-2xl transition-[outline-color] ease-in-out duration-100;
+  @apply text-center text-base md:text-xl my-3 md:py-6 font-bold rounded-lg outline-4 outline-transparent hover:shadow-2xl transition-[outline-color] ease-in-out duration-100;
   background-color: rgb(var(--button-focus-rgb));
   color: rgb(var(--button-text-rgb));
 }

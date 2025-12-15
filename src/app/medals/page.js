@@ -9,9 +9,9 @@ import Link from 'next/link';
 export default function Medals() {
     // Render component
     return (
-        <main className="flex min-h-screen min-w-screen flex-col">
+        <main className="flex min-h-screen max-w-screen flex-col">
             <div className="flex flex-row max-lg:pr-4 self-start py-6">
-                <div className="flex-grow">
+                <div className="grow">
                     <Link href="/#home">
                         <IconContext.Provider value={{ className: "w-12 h-12 m-5 mr-7 text-white hover:text-gray-400 transition-colors duration-75 ease-in-out" }}>
                             <HiX />

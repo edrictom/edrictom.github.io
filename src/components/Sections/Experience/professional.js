@@ -1,4 +1,5 @@
 import { HomeIcon, ComputerDesktopIcon, ServerStackIcon } from '@heroicons/react/20/solid';
+import { CodeBracketIcon } from '@heroicons/react/24/solid';
 
 export default function Professional() {
     return (
@@ -7,17 +8,35 @@ export default function Professional() {
                 Professional Experience
             </h1>
             <ol className="relative border-l border-gray-400 self-center w-9/12 xl:w-3/5 mb-9">
-                <li className="mb-10 ml-6">
+            <li className="mb-10 ml-6">
                     <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-8 ring-gray-900 bg-sky-600">
                         <HomeIcon className="w-4 h-4 text-blue-100" />
                     </span>
                     <h3 className="flex items-center mb-1 text-lg font-semibold text-white">
-                        Apprentice Systems Tech @ Meta
+                        Enterprise Support Tech @ Meta
                         <span className="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-blue-900 text-blue-300 ml-3">
                             Latest
                         </span>
                     </h3>
-                    <p className="block mb-2 text-sm font-normal leading-none text-gray-400"><b>Full-Time</b> &#47;&#47; January 2024 -&gt; Current</p>
+                    <p className="block mb-2 text-sm font-normal leading-none text-gray-400"><b>Full-Time</b> &#47;&#47; February 2025 -&gt; Current</p>
+                    <p className="mb-4 text-base font-normal text-gray-200 mr-0 ">
+                        Support the SF Bay Area Helpdesk locations by troubleshooting
+                        complex software and hardware issues, providing white glove support to VIPs and C-suite staff, and imaging new 
+                        employee-assigned assets. 
+                        <br></br><br></br>
+                        Lead the Helpdesk initiative to establish the expansion of a Superintelligence Lab by writing a Bash script that automates the provisioning of 140 ThinkStations running vanilla Fedora Linux. Currently supports the lab as tier 2 techncial support.
+                        <br></br><br></br>
+                        Deliver New Hire Orientation Tech Setup presentation to over 5000 new employees yearly, up to almost 700 new hires in the audience at a time.
+                    </p>
+                </li>
+                <li className="mb-10 ml-6">
+                    <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-8 ring-gray-900 bg-sky-600">
+                        <CodeBracketIcon className="w-4 h-4 text-blue-100" />
+                    </span>
+                    <h3 className="flex items-center mb-1 text-lg font-semibold text-white">
+                        Apprentice Systems Tech @ Meta
+                    </h3>
+                    <p className="block mb-2 text-sm font-normal leading-none text-gray-400"><b>Full-Time</b> &#47;&#47; January 2024 -&gt; February 2025</p>
                     <p className="mb-4 text-base font-normal text-gray-200 mr-0 ">
                         Complete Systems Engineering training by completing company-curated courses and completing
                         an assigned coding project written in Python to deliver impact to the Enterprise Engineering department of Meta by

@@ -12,7 +12,7 @@ export default function About() {
                 <Image
                     src="/Images/IMG_3417.jpg"
                     alt="Portrait of Edric"
-                    className="rounded-full w-96 h-96 object-cover object-right-top"
+                    className="rounded-full w-96 h-96 object-cover object-top-right"
                     height={ 0 }
                     width={ 0 }
                     quality={ 100 }

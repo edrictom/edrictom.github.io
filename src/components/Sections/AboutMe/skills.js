@@ -2,7 +2,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faReact, faFontAwesome } from "@fortawesome/free-brands-svg-icons";
 import { IconContext } from 'react-icons';
-import { SiAtom, SiTailwindcss, SiNextdotjs, SiVisualstudiocode, SiXcode } from 'react-icons/si';
+import { SiTailwindcss, SiNextdotjs, SiXcode } from 'react-icons/si';
 import { faHtml5, faCss3, faJsSquare, faSwift, faPython, faJava } from "@fortawesome/free-brands-svg-icons";
 
 export default function Skills() {
@@ -91,12 +91,6 @@ export default function Skills() {
                 <ul className="flex flex-row justify-evenly w-full">
                     <li className="self-center tooltip tooltip-bottom tooltip-primary" data-tip="Xcode">
                         <SiXcode />
-                    </li>
-                    <li className="self-center tooltip tooltip-bottom tooltip-primary" data-tip="Visual Studio Code">
-                        <SiVisualstudiocode />
-                    </li>
-                    <li className="self-center tooltip tooltip-bottom tooltip-primary" data-tip="Atom">
-                        <SiAtom />
                     </li>
                 </ul>
             </IconContext.Provider>
